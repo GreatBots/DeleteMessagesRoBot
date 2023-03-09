@@ -83,12 +83,12 @@ REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
 GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
-    "I'm a bot that can delete <s>all</s> "
+    "<b>Hello!</b> I'm a bot that can delete <s>all</s> "
     "your channel or supergroup messages. "
     "\n\n"
-    f"To use me: read 👉 {REQD_PERMISSIONS} 👈"
+    f"/help for see how to use me"
     "\n\n"
-    f"In case of issues, contact 👉 {GIT_REPO_LINK} 👈"
+    f"For reporting bugs and get support @DevsChats"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
@@ -99,7 +99,7 @@ IN_CORRECT_PERMISSIONS_MESSAGE = get_config("IN_CORRECT_PERMISSIONS_MESSAGE", (
     "something went wrong. \n\n"
     "<code>{}</code>"
     "\n\n"
-    f"please verify <a href='{REQD_PERMISSIONS}'>all permissions</a>, "
+    f"please check <a href='{REQD_PERMISSIONS}'>all permissions</a>, "
     "and try again after sometime."
 ))
 SEL_DEL_COMMAND = get_config("SEL_DEL_COMMAND", "seldel")
@@ -116,8 +116,8 @@ NOT_USED_DEL_FROM_DEL_TO_MESSAGE = get_config(
 )
 THANK_YOU_MESSAGE = get_config(
     "THANK_YOU_MESSAGE", (
-        "Thank You for using me, "
-        f"Join {REQD_PERMISSIONS} to support this Telegram Bot"
+        "<b>Thank You for using me,</b> "
+        f"Join @MyOwnBots to support this Telegram Bot"
     )
 )
 TL_FILE_TYPES = (
